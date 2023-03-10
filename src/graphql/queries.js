@@ -1,20 +1,21 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const getTodo = /* GraphQL */ `
-  query GetTodo($id: ID!) {
-    getTodo(id: $id) {
+export const getNote = /* GraphQL */ `
+  query GetNote($id: ID!) {
+    getNote(id: $id) {
       id
       name
       description
+      image
       createdAt
       updatedAt
     }
   }
 `;
 export const listNotes = /* GraphQL */ `
-  query listNotes(
-    $filter: ModelTodoFilterInput
+  query ListNotes(
+    $filter: ModelNoteFilterInput
     $limit: Int
     $nextToken: String
   ) {
@@ -23,6 +24,7 @@ export const listNotes = /* GraphQL */ `
         id
         name
         description
+        image
         createdAt
         updatedAt
       }

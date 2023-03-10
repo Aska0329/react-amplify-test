@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3fb49636d",
+  "policyUUID": "fb49636d",
+  "bucketName": "upload-backet",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
