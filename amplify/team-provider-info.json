@@ -14,6 +14,9 @@
     "categories": {
       "auth": {
         "reactamplifytestcf8babfd": {}
+      },
+      "api": {
+        "notesapp": {}
       }
     }
   }
